@@ -1,0 +1,54 @@
+T-Spice - Tanner SPICE
+Version 2019.2
+License validated.
+Product Release ID: T-Spice Win64 2019.2.20190514.20:23:23
+Copyright (C)1988-2019 Mentor, a Siemens Business
+
+Input folder         = C:\CodingWorkspaces\LEDIT\4 - new\
+Output folder        = C:\CodingWorkspaces\LEDIT\4 - new\cell1
+
+	Parsing "C:\CodingWorkspaces\LEDIT\4 - new\cell1.spc"
+	Including "C:\CodingWorkspaces\LEDIT\4\mosistsmc180.lib"
+
+Start of cell1.spc
+Loaded BSIM3v31 model library, Berkeley BSIM3 v3.1.0 with extensions
+Warning : "cell1.spc" line 23 Pulse risetime is equal to zero, reset to tstep (5e-12)
+Warning : "cell1.spc" line 23 Pulse falltime is equal to zero, reset to tstep (5e-12)
+Warning : "cell1.spc" line 24 Pulse risetime is equal to zero, reset to tstep (5e-12)
+Warning : "cell1.spc" line 24 Pulse falltime is equal to zero, reset to tstep (5e-12)
+Warning : "cell1.spc" line 25 Pulse risetime is equal to zero, reset to tstep (5e-12)
+Warning : "cell1.spc" line 25 Pulse falltime is equal to zero, reset to tstep (5e-12)
+Warning : "cell1.spc" line 26 Pulse risetime is equal to zero, reset to tstep (5e-12)
+Warning : "cell1.spc" line 26 Pulse falltime is equal to zero, reset to tstep (5e-12)
+Warning : "cell1.spc" line 29 Devices have non-unique names: C
+        : "cell1.spc" line 28 Original
+Warning : "cell1.spc" line 30 Devices have non-unique names: C
+        : "cell1.spc" line 28 Original
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -      70
+    MOSFET geometries -      10
+           Capacitors -       3
+      Voltage sources -       6
+   Subckt Definitions -       1
+     Subckt Instances -       0
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -      35
+       Boundary nodes -       7
+          Total nodes -      42
+*** 10 WARNING MESSAGES GENERATED DURING SETUP
+
+
+	Opening simulation database "C:\CodingWorkspaces\LEDIT\4 - new\cell1.tsim"
+
+Transient Analysis          14.40 seconds
+Output                       0.18 seconds
+Overhead                     0.33 seconds
+-----------------------------------------
+Total                       14.93 seconds
+
+Simulation completed	with  10 Warnings
